@@ -18,6 +18,9 @@
 
     <main>
         <div class="container">
+            <div id="sliderdiv">
+                <button id="unitswitch">Change Units</button>
+            </div>
             <table>
                 <tr>
                     <th><h1 class="stattitle">Total Distance Hiked</h1></th>
@@ -26,10 +29,10 @@
                     <th><h1 class="stattitle">Average Speed</h1></th>
                 </tr>
                 <tr>
-                    <td><h3 class="stats">37.66km / 23.4 Miles</h3></td>
+                    <td><h3 class="stats" id="distance">37.66km</h3></td>
                     <td><h3 class="stats">6 Hours 31 Minutes</h3></td>
                     <td><h3 class="stats">41,582</h3></td>
-                    <td><h3 class="stats">5.8km/h / 3.6mph</h3></td>
+                    <td><h3 class="stats" id="speed">5.8km/h</h3></td>
                 </tr>
             </table>
         </div>
@@ -47,6 +50,9 @@
                     <h3 id="img3">Jasper Campground at Sunset</h3>
             </div>
         </div>
+        <script src="index.js"></script>
     </main>
+
+
 </body>
 </html>
